@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IT The Movie | Home</title>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/index.js" defer></script>
+    <script src="../node_modules/light-switch-bootstrap/switch.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+</head>
+<body>
+<!--bootstrap navbar-->
+<nav class="navbar navbar-light bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../img/it_logo.svg" alt="" width="55" height="55" id="brand-logo">
+        </a>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="./index.html" class="item-link">Home</a></li>
+            <li class="nav-item"><a href="./pictures.html" class="item-link">Pictures</a></li>
+            <li class="nav-item"><a href="./interview.html" class="item-link">BTS</a></li>
+            <li class="nav-item"><a href="./events.html" class="item-link">Events</a></li>
+            <li class="nav-item"><a href="./cast.html" class="item-link">Cast</a></li>
+            <li class="nav-item"><a href="./links.html" class="item-link">More</a></li>
+            <li class="nav-item">
+                <div class="form-check form-switch">
+                    <label for="lightSwitch" class="form-check-label"></label>
+                    <input type="checkbox" class="form-check-input" id="lightSwitch">
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container grid " id="index-grid">
+    <div class="row gx-5">
+        <div class="col">
+            <h3 class="col-header"><span id="col-1-span">Evil Comes</span></h3>
+            <p>Every 27 years, a scourge is unleashed on the town of Derry, Maine.</p>
+        </div>
+        <div class="col">
+            <h3 class="col-header"> Again <span id="col-2-span">To</span></h3>
+            <p>Pennywise - the inter-dimensional, soul eating monstrosity - has come back.</p>
+        </div>
+        <div class="col">
+            <h3 class="col-header"><span id="col-3-span">Derry, Maine</span></h3>
+            <p>This time with more than a taste for blood; IT has returned, this time with a grudge.</p>
+        </div>
+    </div>
+</div>
+
+<img class="img-fluid" src="../img/pennywise-face.png" alt="" id="pw-face">
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    background: black;
+    color: white;
+}
+
+.navbar {
+    height: 4rem;
+    border-bottom: 1px solid grey;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.item-link {
+    text-decoration: none;
+    color: white;
+}
+
+#brand-logo {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    filter: invert(0);
+}
+
+#list {
+    list-style-type: none;
+}
+
+.list-item a{
+    text-decoration: none;
+}
+
+#main {
+    text-align: center;
+}

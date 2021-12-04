@@ -1,0 +1,66 @@
+
+body {
+    background: black;
+    color: white;
+}
+
+.navbar {
+    height: 4rem;
+    border-bottom: 1px solid grey;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.item-link {
+    text-decoration: none;
+    color: white;
+}
+
+#upcoming-list {
+    list-style-type: none;
+    line-height: 5px;
+    padding-right: 15rem;
+}
+
+.list-item {
+    padding-bottom: 25px;
+}
+
+#sign-up-row {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#event-grid-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#modal {
+    position: absolute;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    opacity: 85%;
+    top: 25%;
+    width: 55%;
+    height: 45%;
+    display: none;
+
+}
+
+.sign-up-modal {
+    cursor: pointer;
+}

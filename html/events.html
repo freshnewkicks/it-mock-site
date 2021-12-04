@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IT The Movie | Events</title>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/events.js" defer></script>
+    <script src="../node_modules/light-switch-bootstrap/switch.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/events.css">
+
+</head>
+<body>
+<!--bootstrap navbar-->
+<nav class="navbar navbar-light bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../img/it_logo.svg" alt="" width="55" height="55" id="brand-logo">
+        </a>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="./index.html" class="item-link">Home</a></li>
+            <li class="nav-item"><a href="./pictures.html" class="item-link">Pictures</a></li>
+            <li class="nav-item"><a href="./interview.html" class="item-link">BTS</a></li>
+            <li class="nav-item"><a href="./events.html" class="item-link">Events</a></li>
+            <li class="nav-item"><a href="./cast.html" class="item-link">Cast</a></li>
+            <li class="nav-item"><a href="./links.html" class="item-link">More</a></li>
+            <li class="nav-item">
+                <div class="form-check form-switch">
+                    <label for="lightSwitch" class="form-check-label"></label>
+                    <input type="checkbox" class="form-check-input" id="lightSwitch">
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="modal" class="">
+    <h1>MODAL</h1>
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pw">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<div class="container-fluid" id="event-grid-container">
+    <div class="row">
+        <div class="col">
+            <ul id="upcoming-list">
+                <li class="list-item" id="item-one">
+                    <h3>December 6th</h3>
+                    <h5>Private Screening</h5>
+                    <p><a href="https://www.penobscottheatre.org/">Penobscot Theatre</a></p>
+                    <address>
+                        <p>131 Main Street</p>
+                        <p>Bangor, Maine</p>
+                    </address>
+                </li>
+                <li class="list-item" id="item-two">
+                    <h3>December 11th</h3>
+                    <h5>Private Screening</h5>
+                    <p><a href="https://www.penobscottheatre.org/">Penobscot Theatre</a></p>
+                    <address>
+                        <p>131 Main Street</p>
+                        <p>Bangor, Maine</p>
+                    </address>
+                </li>
+                <li class="list-item" id="item-three">
+                    <h3>December 14th</h3>
+                    <h5>Public Screening</h5>
+                    <p><a href="https://losangelestheatre.com/">Los Angeles Theatre</a></p>
+                    <address>
+                        <p>615 S Broadway</p>
+                        <p>Los Angeles, CA</p>
+                    </address>
+                </li>
+                <li class="list-item" id="item-four">
+                    <h3>December 24th</h3>
+                    <h5>Public Screening</h5>
+                    <p><a href="https://www.newyorkcitytheatre.com/">Majestic Theatre</a></p></h5>
+                    <address>
+                        <p>245 W 44th St</p>
+                        <p>New York, NY</p>
+                    </address>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="sign-up-row">
+        <div class="col">
+        <p class="sign-up-modal">Sign up for this event</p>
+        </div>
+        <div class="col">
+        <p class="sign-up-modal">Sign up for this event</p>
+        </div>
+        <div class="col">
+        <p class="sign-up-modal">Sign up for this event</p>
+        </div>
+        <div class="col">
+        <p class="sign-up-modal">Sign up for this event</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

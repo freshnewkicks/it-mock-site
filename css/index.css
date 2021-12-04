@@ -1,0 +1,84 @@
+
+body {
+    background: black;
+    color: white;
+}
+
+.navbar {
+    height: 4rem;
+    border-bottom: 1px solid grey;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+.item-link {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes changeToRed {
+    0% {
+        color: black;
+    }
+    100% {
+        color: red;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        width: 35rem;
+        opacity: 0;
+    }
+    100% {
+        width: 40rem;
+        opacity: 45%;
+    }
+}
+
+#brand-logo {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    filter: invert(0);
+}
+
+#index-grid {
+    width: 80%;
+    margin-top: 55px;
+    letter-spacing: 3px;
+}
+
+.row {
+    text-align: center;
+}
+
+.col-header {
+    border-bottom: 1px solid grey;
+}
+
+#col-1-span,
+#col-2-span,
+#col-3-span {
+    color: red;
+    animation: changeToRed 3s linear;
+}
+
+#pw-face {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 40rem;
+    filter: invert(100%);
+    opacity: 45%;
+    animation: fade-in 5s ease-in;
+
+}
